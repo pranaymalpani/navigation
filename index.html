@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= Popup ================= -->
+
+    <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+            <span class="close-btn" id="closePopup">&times;</span>
+
+            <h1>Welcome!</h1>
+
+            <p>
+                Thank you for visiting our website.
+                Explore our interactive navigation menu
+                and modern responsive design.
+            </p>
+
+            <button id="exploreBtn">Explore Website</button>
+
+        </div>
+
+    </div>
+
+    <!-- ================= Navigation ================= -->
+
+    <header id="navbar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-code"></i>
+
+            ProDigy
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#features">Features</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= Hero Section ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h3>Modern Web Design</h3>
+
+            <h1>
+                Interactive Navigation Menu
+            </h1>
+
+            <p>
+
+                This project demonstrates a fixed navigation
+                menu that changes its style while scrolling
+                and provides attractive hover effects using
+                HTML, CSS and JavaScript.
+
+            </p>
+
+            <a href="#about">
+
+                <button>
+
+                    Learn More
+
+                </button>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= About ================= -->
+
+    <section class="about" id="about">
+
+        <h2>About Us</h2>
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
+                    alt="About">
+
+            </div>
+
+            <div class="about-text">
+
+                <h3>Who We Are</h3>
+
+                <p>
+
+                    We specialize in creating modern,
+                    responsive and interactive websites.
+
+                    Our mission is to build beautiful
+                    user interfaces that provide excellent
+                    user experiences across all devices.
+
+                </p>
+
+                <p>
+
+                    Using HTML, CSS and JavaScript,
+                    we create websites that are visually
+                    attractive, mobile friendly and
+                    easy to use.
+
+                </p>
+
+                <button>
+
+                    Read More
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Services ================= -->
+
+    <section class="services" id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service-container">
+
+            <div class="card">
+
+                <i class="fa-solid fa-laptop-code"></i>
+
+                <h3>Web Development</h3>
+
+                <p>
+
+                    Professional responsive websites
+                    using HTML, CSS and JavaScript.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-palette"></i>
+
+                <h3>UI Design</h3>
+
+                <p>
+
+                    Attractive user interface with
+                    animations and modern layouts.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-mobile-screen-button"></i>
+
+                <h3>Responsive Design</h3>
+
+                <p>
+
+                    Mobile friendly websites that work
+                    perfectly on every screen size.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Features ================= -->
+
+    <section class="features" id="features">
+
+        <h2>Website Features</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-bolt"></i>
+
+                <h3>Fast Performance</h3>
+
+                <p>
+
+                    Optimized structure with smooth
+                    scrolling and animations.
+
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <h3>Secure Design</h3>
+
+                <p>
+
+                    Clean coding practices for
+                    reliability and performance.
+
+                </p>
+
+            </div>
+
+            <div class="feature-box">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <h3>Modern UI</h3>
+
+                <p>
+
+                    Elegant black theme with glowing
+                    interactive elements.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= Contact ================= -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input type="text"
+                placeholder="Your Name"
+                required>
+
+            <input type="email"
+                placeholder="Your Email"
+                required>
+
+            <textarea
+                rows="6"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button>
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ================= Footer ================= -->
+
+    <footer>
+
+        <h3>Interactive Navigation Menu</h3>
+
+        <p>
+
+            Developed using HTML, CSS and JavaScript.
+
+        </p>
+
+        <div class="social">
+
+            <i class="fab fa-facebook"></i>
+
+            <i class="fab fa-instagram"></i>
+
+            <i class="fab fa-linkedin"></i>
+
+            <i class="fab fa-github"></i>
+
+        </div>
+
+        <p>
+
+            © 2026 All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <!-- ================= Back To Top ================= -->
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
